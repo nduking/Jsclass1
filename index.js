@@ -7,6 +7,5 @@ function calc(event) {
       let result = firstno + secondno;
       console.log(result);
 
-let result = firstno ** secondno;
+ result = firstno ** secondno;
 }
-button type="submit" onclick="calc(event)"> submit</button
