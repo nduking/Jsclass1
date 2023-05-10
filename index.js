@@ -2,10 +2,17 @@
 // const secondName = document.getElementById("secondno").value;
 
 function calc(event) {
+      event.preventDefault();
       const firstName = document.getElementById("firstno").value;
       const secondName = document.getElementById("secondno").value;
-      let result = firstno + secondno;
-      console.log(result);
+      let result = Number(firstName) + Number(secondName);
+      console.log (result);
+}
 
- result = firstno ** secondno;
+function calc2(event) {
+      event.preventDefault();
+      const firstName = document.getElementById("firstno").value;
+      const secondName = document.getElementById("secondno").value;
+      let result = Number(firstName) ** Number(secondName);
+      console.log (result);
 }
