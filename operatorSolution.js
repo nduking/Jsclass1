@@ -11,5 +11,6 @@ console.log(`${isMarried}`);
 console.log('10'==10);
 console.log('10'===10);
 console.log(parseInt(9.8)===10);
+console.log(parseFloat(9.8)===10);
 console.log("Nduka".length === "kingsley".length);
 console.log("Nduka".length !== "kingsley".length);
