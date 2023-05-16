@@ -13,3 +13,17 @@ console.log('10'===10);
 console.log(parseInt(9.8)===10);
 console.log("Nduka".length === "kingsley".length);
 console.log("Nduka".length !== "kingsley".length);
+
+// Area of a triangle
+let base = prompt;
+let height = prompt;
+let area= (0.5*base*height);
+console.log(area);
+
+//perimeter
+
+let a= prompt("Enter side");
+let b= promot("Enter side");
+let c= prompt("Enter side");
+let perimeter=(a + b + c);
+console.log(perimeter);
