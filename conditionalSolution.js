@@ -6,3 +6,18 @@ if (age >= 18){
 }else {
       console.log('Welldone');
 }
+
+
+// Solution 2
+
+let yourAge = prompt ("Enter your age:");
+let myAge = 25;
+if (myAge <= 25) {
+      console.log ("I'm are older than you")
+} else if (yourAge === 30) {
+      console.log("I'm 5 years older than you")
+}  else if (yourAge > 30){
+      console.log("You are too old")
+}else {
+      console.log("we no be mate")
+}
