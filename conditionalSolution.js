@@ -21,3 +21,21 @@ if (myAge <= 25) {
 }else {
       console.log("we no be mate")
 }
+
+
+//Solution 3
+
+let score = prompt;
+if (90 >= 100) {
+      console.log ('Your grade is A')
+} else if (70 >=89){
+      console.log ('your grade is B')
+}else if (60 >= 69){
+      console.log('Your grade is C')
+}else if (50 >=59){
+      console.log('Your grade is D')
+}else if (40 >=49){
+      console.log('Your grade is E')
+} else {
+      console.log ('Your grade is F')
+}
