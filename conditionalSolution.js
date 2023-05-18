@@ -39,3 +39,20 @@ if (90 >= 100) {
 } else {
       console.log ('Your grade is F')
 }
+
+// Solution 3
+
+let season = prompt("Enter month:");
+if (september || october || november)
+{
+      console.log('The Season is Autumn')
+} else if (december || january || february)
+{
+      console.log('The season is Winter')
+}else if (march || april || may)
+{
+      console.log('The season is Spring')
+}else (june || july || august)
+{
+      console.log('The season is Summer')
+}
